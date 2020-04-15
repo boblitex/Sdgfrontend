@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,18 +17,29 @@
     </header>
     <section class="input">
         <form action="" class="input-form">
-            <label for="population" class="label"><h3>Population</h3></label>
-            <input class="input-field" data-population type="number" name="population" placeholder="population" id="population">
-            <label for="timeToElapse" class="label"><h3>Time to Elapse</h3></label>
+            <label for="population" class="label">
+                <h3>Population</h3>
+            </label>
+            <input class="input-field" data-population type="number" name="population" placeholder="population"
+                id="population">
+            <label for="timeToElapse" class="label">
+                <h3>Time to Elapse</h3>
+            </label>
             <input class="input-field" data-time-to-elapse type="number" name="timeToElapse" id="timeToElapse"
                 placeholder="Time to Elapse">
-            <label for="reportedCases" class="label"><h3>Reported Cases</h3> </label>
-                <input class="input-field" data-reported-cases type="number" name="reportedCases" id="reportedCases" 
+            <label for="reportedCases" class="label">
+                <h3>Reported Cases</h3>
+            </label>
+            <input class="input-field" data-reported-cases type="number" name="reportedCases" id="reportedCases"
                 placeholder="Reported Cases">
-            <label for="totalHospitalBeds" class="label"><h3>Total Hospital Beds</h3> </label>
-                <input class="input-field" data-total-hospital-beds type="number" name="totalHospitalBeds" id="totalHospitalBeds"
-                placeholder="Total Hospital Beds">
-            <label class="label input-field-label" for="PeriodType"><h3>Select Period Type:</h3> </label>
+            <label for="totalHospitalBeds" class="label">
+                <h3>Total Hospital Beds</h3>
+            </label>
+            <input class="input-field" data-total-hospital-beds type="number" name="totalHospitalBeds"
+                id="totalHospitalBeds" placeholder="Total Hospital Beds">
+            <label class="label input-field-label" for="PeriodType">
+                <h3>Select Period Type:</h3>
+            </label>
             <select data-period-type class="input-field" id="PeriodType">
                 <option value="days">days</option>
                 <option value="weeks">weeks</option>
@@ -38,7 +50,7 @@
 
     </section>
 
-
+    <script src="estimator.js"></script>
 </body>
 
 </html>
